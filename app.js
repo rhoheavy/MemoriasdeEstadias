@@ -18,10 +18,6 @@ bars.addEventListener("click", () => {
   }
 });
 
-menu.classList.addEventListener("click", () => {
-  menu.classList.add("hidden");
-});
-
 window.addEventListener("resize", () => {
   if (window.innerWidth > 768) {
     menu.classList.add("hidden");
@@ -36,3 +32,7 @@ window.addEventListener("resize", () => {
     );
   }
 });
+
+// menu.classList.addEventListener("click", () => {
+//   menu.classList.add("hidden");
+// });
